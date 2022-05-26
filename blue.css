@@ -1,0 +1,70 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(7, 7, 37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 100px auto;
+    width: 18em;
+    height: 30em;
+    background-color: rgb(20, 15, 73);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+
+.kotak {
+    height: 40%;
+}
+
+.img img {
+    width: 100%;
+    height: 130%;
+    border-radius: 10px;
+}
+
+.img {
+    background-color: aqua;
+}
+
+.img:hover {}
+
+/* kotak tulis */
+.tulis {
+    line-height: 15px;
+}
+
+.tulis h3 {
+    color: aliceblue;
+}
+
+.tulis p {
+    color: rgb(94, 116, 116);
+}
+
+.tulis div {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.tulis nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tulis nav img {
+    width: 2em;
+    height: 2em;
+    border: 3px solid white;
+    border-radius: 50%;
+}
